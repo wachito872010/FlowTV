@@ -47,11 +47,15 @@ body {
 
 /* Channel List Styles */
 .channel-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 20px;
+  float: right;
+  width: 25%;
 }
+
+.video-list {
+  margin: 0 auto;
+  width: 50%;
+}
+
 
 .channel-list h2 {
   font-size: 24px;
@@ -87,11 +91,6 @@ body {
 }
 
 /* Video List Styles */
-.video-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
 .video-list h2 {
   font-size: 24px;
