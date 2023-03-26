@@ -1,53 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Watch | FlowTV</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>FlowTV</h1>
-	</header>
-	<main>
-		<div class="channel-list">
-			<div class="channel-item">
-				<img src="https://yt3.googleusercontent.com/gzcmQ3R5lVllaUyd9Atr7q7gDALNlQhAwX_yJglHegODat5wwbRGVoVoMIdsucgNmP_nIfJ1bA=s176-c-k-c0x00ffffff-no-rj" alt="BigLandsHQ">
-			</div>
-			<div class="channel-item">
-				<img src="https://via.placeholder.com/176x176.png?text=BigLands+Lets+Plays" alt="BigLands Lets Plays">
-			</div>
-			<div class="channel-item">
-				<img src="https://via.placeholder.com/176x176.png?text=BigLands+Tech" alt="BigLands Tech">
-			</div>
-			<div class="channel-item">
-				<img src="https://via.placeholder.com/176x176.png?text=BigLands+Shorts" alt="BigLands Shorts">
-			</div>
-			<div class="channel-item">
-				<img src="https://via.placeholder.com/176x176.png?text=BigLands+Tutorials" alt="BigLands Tutorials">
-			</div>
-		</div>
-		<div class="video-list">
-			<div class="search-bar">
-				<input type="text" placeholder="Search videos...">
-				<button>Search</button>
-			</div>
-			<div class="video-item">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/4DdiRC5X7s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<p class="video-title">My Game Engine | Making A Game Engine From Scratch</p>
-				<p class="video-details">by BigLandsHQ</p>
-			</div>
-			<div class="video-item">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/IyK9XiU0_5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<p class="video-title">BigLands Shorts: A Random Clip</p>
-				<p class="video-details">by BigLands Shorts</p>
-			</div>
-			<div class="video-item">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/e21gwSp7xCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<p class="video-title">BigLands Shorts: A Funny Moment</p>
-				<p class="video-details">by BigLands Shorts</p>
-			</div>
-		</div>
-	</main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>FlowTV</title>
+    <link rel="stylesheet" href="watch.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>FlowTV</h1>
+      <a href="watch.html" class="btn btn-primary">Watch Now</a>
+    </header>
+    <div class="container">
+      <div class="channel-list">
+        <h2>Channels</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="https://yt3.googleusercontent.com/gzcmQ3R5lVllaUyd9Atr7q7gDALNlQhAwX_yJglHegODat5wwbRGVoVoMIdsucgNmP_nIfJ1bA=s176-c-k-c0x00ffffff-no-rj" alt="BigLandsHQ Logo">
+              BigLandsHQ
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://via.placeholder.com/40x40.png?text=BigLands%20Lets%20Plays" alt="BigLands Lets Plays Logo">
+              BigLands Lets Plays
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://via.placeholder.com/40x40.png?text=BigLands%20Tech" alt="BigLands Tech Logo">
+              BigLands Tech
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://via.placeholder.com/40x40.png?text=BigLands%20Shorts" alt="BigLands Shorts Logo">
+              BigLands Shorts
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://via.placeholder.com/40x40.png?text=BigLands%20Tutorials" alt="BigLands Tutorials Logo">
+              BigLands Tutorials
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="video-list">
+        <h2>Recent Videos</h2>
+        <div class="video-card">
+          <a href="https://www.youtube.com/watch?v=4DdiRC5X7s0" target="_blank">
+            <img src="https://i.ytimg.com/vi/4DdiRC5X7s0/hqdefault.jpg" alt="Video Thumbnail">
+            <h3>Introducing FlowTV</h3>
+            <p>Posted by BigLandsHQ</p>
+          </a>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/shorts/IyK9XiU0_5c" target="_blank">
+            <img src="https://i.ytimg.com/vi/IyK9XiU0_5c/hqdefault.jpg" alt="Video Thumbnail">
+            <h3>Shorts Test</h3>
+            <p>Posted by BigLands Shorts</p>
+          </a>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/shorts/e21gwSp7xCw" target="_blank">
+            <img src="https://i.ytimg.com/vi/e21gwSp7xCw/hqdefault.jpg" alt="Video Thumbnail">
+<h3>Another Shorts Test</h3>
+<p>Posted by BigLands Shorts</p>
+</a>
+</div>
+<div class="video-card">
+<a href="https://www.youtube.com/watch?v=LKjXXtZPzS0" target="_blank">
+<img src="https://i.ytimg.com/vi/LKjXXtZPzS0/hqdefault.jpg" alt="Video Thumbnail">
+<h3>Let's Play Minecraft Ep. 1</h3>
+<p>Posted by BigLands Lets Plays</p>
+</a>
+</div>
+<div class="video-card">
+<a href="https://www.youtube.com/watch?v=GjKszjvGoFg" target="_blank">
+<img src="https://i.ytimg.com/vi/GjKszjvGoFg/hqdefault.jpg" alt="Video Thumbnail">
+<h3>How to Build a PC</h3>
+<p>Posted by BigLands Tech</p>
+</a>
+</div>
+</div>
+</div>
+<footer class="footer">
+<p>© 2023 FlowTV, Inc.</p>
+</footer>
+
+  </body>
 </html>
